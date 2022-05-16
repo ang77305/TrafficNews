@@ -1,9 +1,17 @@
 # TrafficNews
 
+Kotlin
+
 MVVM
 
-Dagger
+Data binding
 
-RXJava+Retrofit
+Livedata
+
+Rxjava
+
+Retrofit
+
+Dagger
 
 Navigation
