@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/nav_graph_main"
+        app:startDestination="@id/login_fragment">
+    <fragment
+            android:id="@+id/login_fragment"
+            android:name="com.fiona.trafficnews.ui.LoginFragment"
+            tools:layout="@layout/fragment_login">
+        <action
+                android:id="@+id/to_news_fragment"
+                app:destination="@id/new_fragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/new_fragment"
+        android:name="com.fiona.trafficnews.ui.NewsFragment"
+            tools:layout="@layout/fragment_news">
+        <action
+                android:id="@+id/to_update_fragment"
+                app:destination="@id/update_fragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/update_fragment"
+        android:name="com.fiona.trafficnews.ui.UpdateFragment"
+            tools:layout="@layout/fragment_update">
+        <action
+                android:id="@+id/action_update_fragment_to_new_fragment"
+                app:popUpTo="@id/new_fragment" />
+    </fragment>
+
+</navigation>

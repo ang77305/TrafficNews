@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">TrafficNews</string>
+
+
+    <string-array name="timezone_array">
+        <item>GMT+1</item>
+        <item>GMT+2</item>
+        <item>GMT+3</item>
+        <item>GMT+4</item>
+        <item>GMT+5</item>
+        <item>GMT+6</item>
+        <item>GMT+7</item>
+        <item>GMT+8</item>
+        <item>GMT+9</item>
+        <item>GMT+10</item>
+        <item>GMT+11</item>
+        <item>GMT+12</item>
+        <item>GMT+13</item>
+        <item>GMT+14</item>
+        <item>GMT+15</item>
+        <item>GMT+16</item>
+        <item>GMT+17</item>
+        <item>GMT+18</item>
+        <item>GMT+19</item>
+        <item>GMT+20</item>
+        <item>GMT+21</item>
+        <item>GMT+22</item>
+        <item>GMT+23</item>
+        <item>GMT+24</item>
+    </string-array>
+</resources>

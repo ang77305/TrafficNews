@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="mvvm_arch_3-master" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.1.3" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="4.1.3" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="4" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2e8ab36de379d5ce517ec67f7715feb8/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/7b488d740cf11b1b2ca952e54a262be9/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/androidx.databinding/databinding-common/3.4.0/265b8ca5d867c32dd0b9032bd7e7bf49a1af199/databinding-common-3.4.0.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/d33cf7ed8f3b96a3b4ce378a50d13da7/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/26cc01671f5ffb794c1378236feee513/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/c9ad5b3e6e4a75860dc63e583bfd7a9c/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/e144cb6738e5788ebfb725a2b12d7bbf/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/5ee49126edd062034cc0cf213cef7980/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/05d4296b5ae529451ba3e568d5b22290/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/d706f53c6f270307625a1ca47172f2ae/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/d18f2f3cefca30ffd596e655fa669698/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/636a3f9abfdc22e844c69b919466e4bf/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/0aac153dd75c14df12cdd65a66a85ba0/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/8119cb278c6a8cbf3110588f096e411b/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/b1b20f5c4696615e0bb1b38eb3e3ca45/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/6cf363c7eb1494dc2d1f47ee63aa3fb0/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/692acaa26af56503ca3f4a614435248b/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/03c18d13059967b3da8012d5a380df7c/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/7a39eb1d80e07c9abde89fc6ec08daf2/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/188bc7646230af90e38bc442552f5182/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/d9117ef466677e36007125a6892b683e/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/29ef1ff8bd79d4681c186b19aafb0297/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/1bb460fc79795c63d5be338b6ef7edc0/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/9bbad0827bd341104eaad2d51c979bf8/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/52e8677b77c370b3b73d55040570d45d/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/91cf0288dffb16789f2327e95698aed0/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/18a06cbf1727a54352cd54425845e9f3/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/1947d5dc947e4d009829d4ed6384ba18/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/3b55c2ffd52ae2153cb6da4161642eb6/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/921e4a3852101124a31f2fef355cb05d/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/55b39c2180c60545a6909d776ff37ed3/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/d312105ee7046c81877e193947ae7262/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/9fde45efcbc65bf57ffc8ab3bd015bc7/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/72ed4a106472474d3590f61e3c49c8f8/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/ba25150c0c9b6654ccf8789fdeb02580/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.3.1/fc466261d52f4433863642fb40d12441ae274a98/lifecycle-common-2.3.1.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/abac6dc49a82a5b9ca097924f1306639/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/c2782e0b65d9de298fb1a324bdd16634/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/3d4b234b3dff3ede21b6da4bb4397138/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/92ea22f760609a91121958134e247a86/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/3fefdbfb7b616247d1ba824fcae6973d/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.2.0/57136ff68ee784c6e19db34ed4a175338fadfde1/annotation-1.2.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions-runtime/1.6.0/fce6d22d4151652de3f79b2a4cf937bb52393fbc/kotlin-android-extensions-runtime-1.6.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.6.0/da6bdc87391322974a43ccc00a25536ae74dad51/kotlin-stdlib-jdk7-1.6.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/adapter-rxjava2/2.2.0/3ee0e527143abbe130ddba4c1fa6c4be5d66ed5c/adapter-rxjava2-2.2.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/converter-gson/2.9.0/fc93484fc67ab52b1e0ccbdaa3922d8a6678e097/converter-gson-2.9.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.retrofit2/retrofit/2.9.0/d8fdfbd5da952141a665a403348b74538efc05ff/retrofit-2.9.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/logging-interceptor/4.0.1/da7f05333cb0ad3e7a29481c9a688ac1a38ddadb/logging-interceptor-4.0.1.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.okhttp3/okhttp/4.0.1/4e606430c80c69b744d19c6ca1b269b68e297040/okhttp-4.0.1.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/13f8f2623765f6f2468c42d1da6b3c83/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/66411875361c9f2cb768c245f7b7dd69/jars/classes.jar:/Users/fiona.shih/.gradle/caches/transforms-2/files-2.1/04a3761e07989f5a4e37d2089c73c162/jars/classes.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/io.reactivex.rxjava2/rxjava/2.2.10/18e9edc67e0abaa03713eeb9ca2cb0e30c859de4/rxjava-2.2.10.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/org.reactivestreams/reactive-streams/1.0.2/323964c36556eb0e6209f65c1cef72b53b461ab8/reactive-streams-1.0.2.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.squareup.okio/okio/2.2.2/36f483536153f15339a8b48d508e22be7c9c531a/okio-2.2.2.jar:/Users/fiona.shih/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.8.5/f645ed69d595b24d4cf8b3fbb64cc505bede8829/gson-2.8.5.jar:/Users/fiona.shih/Library/Android/sdk/platforms/android-30/android.jar:/Users/fiona.shih/Library/Android/sdk/build-tools/30.0.2/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="languageVersion" value="1.5" />
+          <option name="apiVersion" value="1.5" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.6.0/7468222e239c4b400f8a2931885e8571ba280121/kotlin-android-extensions-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-compiler-embeddable/1.6.0/aa8da3bedc53c89219b84a0b40c7419431a13e76/kotlin-compiler-embeddable-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-reflect/1.6.0/a215a7f914d5916dc5fd2d45cea16524e0220203/kotlin-reflect-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.6.0/a40b8b22529b733892edf4b73468ce598bb17f04/kotlin-stdlib-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-script-runtime/1.6.0/55f72526ddcff6fc77d72cdf949c7e3d9bd95620/kotlin-script-runtime-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-daemon-embeddable/1.6.0/d6242b37f4ce6b637d10847c7558446272ec8432/kotlin-daemon-embeddable-1.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.intellij.deps/trove4j/1.0.20181211/216c2e14b070f334479d800987affe4054cd563f/trove4j-1.0.20181211.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/net.java.dev.jna/jna/5.6.0/330f2244e9030119ab3030fc3fededc86713d9cc/jna-5.6.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar" />
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.6.0/7857e365f925cfa060f941c1357cda1f8790502c/kotlin-stdlib-common-1.6.0.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ASSEMBLE_TASK_NAME" value="assembleDebug" />
+        <option name="COMPILE_JAVA_TASK_NAME" value="compileDebugSources" />
+        <afterSyncTasks>
+          <task>generateDebugSources</task>
+        </afterSyncTasks>
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/main/res;file://$MODULE_DIR$/../../../app/src/debug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/debug" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="file://$MODULE_DIR$/../../../app/src/androidTest/res;file://$MODULE_DIR$/../../../app/src/androidTestDebug/res;file://$MODULE_DIR$/../../../app/build/generated/res/rs/androidTest/debug;file://$MODULE_DIR$/../../../app/build/generated/res/resValues/androidTest/debug" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app">
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 30 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Gradle: kaptGeneratedClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debug" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" scope="TEST">
+      <library name="Gradle: kaptGeneratedTestClasses">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugUnitTest" />
+          <root url="file://$MODULE_DIR$/../../../app/build/tmp/kapt3/classes/debugAndroidTest" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
