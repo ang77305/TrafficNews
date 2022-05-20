@@ -1,4 +1,4 @@
-package example.fiona.pixabay.di.module
+package com.fiona.trafficnews.di.module
 
 import com.fiona.trafficnews.api.ApiHelper
 import dagger.Module

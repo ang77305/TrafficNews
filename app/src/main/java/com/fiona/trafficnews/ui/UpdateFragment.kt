@@ -10,20 +10,15 @@ import android.view.ViewGroup
 import android.widget.AdapterView
 import android.widget.AdapterView.OnItemSelectedListener
 import android.widget.ArrayAdapter
-import android.widget.TextView
 import androidx.activity.OnBackPressedCallback
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProviders
 import androidx.navigation.Navigation
 import com.fiona.trafficnews.R
-import com.fiona.trafficnews.UserViewModel
+import com.fiona.trafficnews.viewmodel.UserViewModel
 import com.fiona.trafficnews.data.Status
 import com.fiona.trafficnews.utils.AppUtils
-import com.google.android.material.snackbar.Snackbar
-import kotlinx.android.synthetic.main.fragment_login.*
-import kotlinx.android.synthetic.main.fragment_news.*
 import kotlinx.android.synthetic.main.fragment_update.*
-import java.util.*
 
 
 class UpdateFragment : Fragment() {
@@ -64,7 +59,7 @@ class UpdateFragment : Fragment() {
             ArrayAdapter(requireActivity(), android.R.layout.simple_list_item_1, myResArray)
 
         spinner_timezone.adapter = adapter
-        spinner_timezone.setSelection(userViewModel.userInfoLiveData.value?.data?.timezone!! - 1)
+        userViewModel.userInfoLiveData.value?.data?.timezone?.let { spinner_timezone.setSelection(it - 1) }
 
         spinner_timezone.setOnItemSelectedListener(object : OnItemSelectedListener {
             override fun onItemSelected(
@@ -80,8 +75,9 @@ class UpdateFragment : Fragment() {
             }
         })
         btn_back.setOnClickListener(View.OnClickListener {
-            Log.d("btn_back","btn_back")
-            Navigation.findNavController(spinner_timezone).navigate(R.id.action_update_fragment_to_new_fragment)
+            Log.d("btn_back", "btn_back")
+            Navigation.findNavController(spinner_timezone)
+                .navigate(R.id.action_update_fragment_to_new_fragment)
         })
     }
 
@@ -112,7 +108,8 @@ class UpdateFragment : Fragment() {
             viewLifecycleOwner,
             object : OnBackPressedCallback(true) {
                 override fun handleOnBackPressed() {
-                    Navigation.findNavController(spinner_timezone).navigate(R.id.action_update_fragment_to_new_fragment)
+                    Navigation.findNavController(spinner_timezone)
+                        .navigate(R.id.action_update_fragment_to_new_fragment)
 
                 }
             }

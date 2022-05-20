@@ -1,23 +1,24 @@
-package com.fiona.trafficnews
+package com.fiona.trafficnews.viewmodel
 
-import android.annotation.SuppressLint
 import androidx.lifecycle.MutableLiveData
-import androidx.lifecycle.ViewModel
+import com.fiona.trafficnews.ApiRepository
 import com.fiona.trafficnews.data.NewsDataModel
 import com.fiona.trafficnews.data.Resource
-import com.fiona.trafficnews.data.UserModel
-import example.fiona.pixabay.di.component.ApiRepositoryComponent
-import example.fiona.pixabay.di.component.DaggerApiRepositoryComponent
+import com.fiona.trafficnews.di.component.ApiRepositoryComponent
+import com.fiona.trafficnews.di.component.DaggerApiRepositoryComponent
+
 import io.reactivex.android.schedulers.AndroidSchedulers
+import io.reactivex.disposables.CompositeDisposable
 import io.reactivex.schedulers.Schedulers
 import java.net.ConnectException
 import java.net.UnknownHostException
 import javax.inject.Inject
 
 
-class NewsViewModel() : ViewModel() {
+class NewsViewModel : BaseViewModel() {
 
     var newsDataModel = MutableLiveData<Resource<NewsDataModel>>()
+    private val compositeDisposable: CompositeDisposable = CompositeDisposable()
 
     @Inject
     lateinit var apiRepository: ApiRepository
@@ -28,7 +29,7 @@ class NewsViewModel() : ViewModel() {
         apiRepositoryComponent.inject(this)
     }
 
-    @SuppressLint("CheckResult")
+
     fun getNews() {
 
         apiRepository
@@ -37,6 +38,7 @@ class NewsViewModel() : ViewModel() {
             .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
                 newsDataModel.postValue(Resource.success(it))
+                compositeDisposable.dispose()
             }, { throwable ->
                 var message = ""
                 message =
@@ -50,7 +52,10 @@ class NewsViewModel() : ViewModel() {
                         message,
                         null
                     )
+
                 )
-            })
+            }).addDisposable()
     }
+
+
 }

@@ -27,10 +27,6 @@ class NewsAdapter(
         return newsList.News.size
     }
 
-    fun updateList(newsList: NewsDataModel) {
-        this.newsList = newsList
-    }
-
     override fun onBindViewHolder(holder: NewsViewHolder, position: Int) {
 
         holder.tvTitle.text = newsList.News.get(position).chtmessage

@@ -1,9 +1,9 @@
-package example.fiona.pixabay.di.component
+package com.fiona.trafficnews.di.component
 
-import com.fiona.trafficnews.NewsViewModel
-import com.fiona.trafficnews.UserViewModel
+import com.fiona.trafficnews.viewmodel.NewsViewModel
+import com.fiona.trafficnews.viewmodel.UserViewModel
 import dagger.Component
-import example.fiona.pixabay.di.module.ApiRepositoryModule
+import com.fiona.trafficnews.di.module.ApiRepositoryModule
 
 import javax.inject.Singleton
 

@@ -1,7 +1,8 @@
 package com.fiona.trafficnews.api
 
-import example.fiona.pixabay.di.component.ApiComponent
-import example.fiona.pixabay.di.component.DaggerApiComponent
+import com.fiona.trafficnews.di.component.ApiComponent
+import com.fiona.trafficnews.di.component.DaggerApiComponent
+
 import javax.inject.Inject
 
 
@@ -23,5 +24,6 @@ class ApiHelper() {
     )
 
     fun getNews() = apiService.getNews("https://tcgbusfs.blob.core.windows.net/dotapp/news.json")
+
 }
 

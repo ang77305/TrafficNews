@@ -8,7 +8,7 @@
 
         <variable
                 name="UserViewModel"
-                type="com.fiona.trafficnews.UserViewModel" />
+                type="com.fiona.trafficnews.viewmodel.UserViewModel" />
     </data>
 
     <androidx.constraintlayout.widget.ConstraintLayout

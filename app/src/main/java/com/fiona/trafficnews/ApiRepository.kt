@@ -3,14 +3,17 @@ package com.fiona.trafficnews
 import com.fiona.trafficnews.api.ApiHelper
 import com.fiona.trafficnews.data.NewsDataModel
 import com.fiona.trafficnews.data.UserModel
-import example.fiona.pixabay.di.component.ApiHelperComponent
-import example.fiona.pixabay.di.component.DaggerApiHelperComponent
+import com.fiona.trafficnews.di.component.ApiHelperComponent
+import com.fiona.trafficnews.di.component.DaggerApiHelperComponent
+
 import io.reactivex.Single
 import javax.inject.Inject
 
 class ApiRepository {
     @Inject
     lateinit var apiHelper: ApiHelper
+
+
     init {
         val apiHelperComponent: ApiHelperComponent = DaggerApiHelperComponent.create()
         apiHelperComponent.inject(this)
@@ -27,4 +30,5 @@ class ApiRepository {
     fun getNews(): Single<NewsDataModel> {
         return apiHelper.getNews()
     }
+
 }

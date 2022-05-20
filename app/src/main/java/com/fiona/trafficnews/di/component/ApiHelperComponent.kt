@@ -1,8 +1,8 @@
-package example.fiona.pixabay.di.component
+package com.fiona.trafficnews.di.component
 
 import com.fiona.trafficnews.ApiRepository
 import dagger.Component
-import example.fiona.pixabay.di.module.ApiHelperModule
+import com.fiona.trafficnews.di.module.ApiHelperModule
 import javax.inject.Singleton
 
 @Singleton
